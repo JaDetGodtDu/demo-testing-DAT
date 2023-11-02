@@ -1,7 +1,7 @@
 {
   "name": "demo-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "- npm install jest --save-dev\r - now visit this web site to set it up for ES6: https://babeljs.io/setup#installation\r   - go to the info about jest and follow the instruction",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
@@ -12,5 +12,10 @@
     }
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
 }
