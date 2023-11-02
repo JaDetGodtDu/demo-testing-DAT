@@ -1,6 +1,6 @@
 import lib from "./lib";
 
-// greet function test ------------------------------
+// greet function test ------------------------------------------------------------------------------------------------------------------------
 test(`This greet function call should return the string "welcome" followed by the name-input`, () => {
   const name = `Bingus`;
   const result = lib.greet(name);
@@ -13,7 +13,7 @@ test(`This greet function call should return the string "welcome" followed by an
   expect(result).toBe(`Welcome `);
 }); // Tests the greet function with an empty string
 
-// getCurrencies function test -----------------------
+// getCurrencies function test -----------------------------------------------------------------------------------------------------------------
 test(`The getCurrencies function should return an array of currencies`, () => {
   const result = lib.getCurrencies();
   expect(result).toEqual(["USD", "AUD", "EUR"]);
@@ -27,14 +27,14 @@ test(`The getCurrencies function should return an array of currencies`, () => {
   expect(result.length).toBe(3);
 }); */
 
-// getProduct funtion test ---------------------------
+// getProduct funtion test ---------------------------------------------------------------------------------------------------------------------
 test("The getProduct function should return the productId that is parsed into the function and a price = 10", () => {
   const productId = 666;
   const result = lib.getProduct(productId);
   expect(result).toEqual({ id: productId, price: 10 });
 });
 
-// registerUser function test --------------------------
+// registerUser function test --------------------------------------------------------------------------------------------------------------------
 test("registerUser should return an object with a unique ID and the username", () => {
   const username = "Bingus";
   const result = lib.registerUser(username);
