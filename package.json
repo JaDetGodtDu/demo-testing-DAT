@@ -4,7 +4,7 @@
   "description": "- npm install jest --save-dev\r - now visit this web site to set it up for ES6: https://babeljs.io/setup#installation\r   - go to the info about jest and follow the instruction",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage --watchAll"
   },
   "jest": {
     "transform": {
